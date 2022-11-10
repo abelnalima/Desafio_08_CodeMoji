@@ -143,12 +143,7 @@
     }
 
     .main-infos {
-        display: flex;
-        flex-direction: column;
-    
-        position: absolute;
         left: 26.5625%;
-        max-width: 60%;
     }
 
     .title-2 p {
@@ -157,5 +152,60 @@
 
     .codemoji-5 {
         margin-left: 48%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .main-infos {
+        left: 24.5%;
+
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .main-infos {
+        left: 24.5%;
+
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .codemoji-3 {
+        width: 9.375rem;
+        height: 9.375rem;
+    
+        margin-left: 12%;
+    }
+    
+    .memmoji-3 img {
+        width: 8rem;
+        height: 8rem;
+    
+        margin: auto;
+    }
+    
+    .main-infos {
+        left: 24%;
+        max-width: 58%;
+    }
+
+    .main-btn {
+        margin-top: 8rem;
+    }
+    
+    .codemoji-5 {
+        width: 9.375rem;
+        height: 9.375rem;
+    
+        margin-left: 50%;
+    }
+    
+    .memmoji-5 img {
+        width: 7.5rem;
+        height: 7.5rem;
+    
+        margin-top: 1rem;
     }
 }

@@ -69,3 +69,13 @@
         margin-left: 45.29%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .header-name {
+        margin-left: 13%;
+    }
+
+    .icon-search {
+        margin-left: 40%;
+    }
+}

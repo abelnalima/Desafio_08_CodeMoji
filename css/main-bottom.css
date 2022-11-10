@@ -94,3 +94,70 @@
     }
     
 }
+
+@media screen and (max-width: 1280px) {
+    .codemoji-2 {
+        margin-top: 4rem;
+        margin-left: 15%;
+    }
+
+    .codemoji-1 {
+        margin-top: 10rem;
+        margin-left: 18%;
+    }
+
+    .codemoji-4 {
+        top: 45rem;
+        left: 78%;
+    }
+    
+    .memmoji-4 img {
+        top: 47rem;
+        left: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .codemoji-2 {
+        width: 9.375rem;
+        height: 9.375rem;
+    
+        margin-top: 13%;
+        margin-left: 15%;
+    }
+    
+    .memmoji-2 img {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .codemoji-1 {
+        width: 9.375rem;
+        height: 9.375rem;
+    
+        margin-top: 13rem;
+        margin-left: 20%;
+    }
+    
+    .memmoji-1 img {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .codemoji-4 {
+        top: 48rem;
+        left: 78%;
+    
+        width: 9.375rem;
+        height: 9.375rem;
+    }
+    
+    .memmoji-4 img {
+        top: 49rem;
+        left: 79%;
+    
+        width: 8rem;
+        height: 8rem;
+    }
+}

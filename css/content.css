@@ -14,8 +14,13 @@ body {
     background: var(--white-100);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px)
+              and (max-width: 1366px) 
+              and (max-width: 1280px) 
+              and (max-width: 1024px){
     body {
         width: 100vw;
     }
 }
+
+

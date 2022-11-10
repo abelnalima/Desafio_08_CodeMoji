@@ -56,41 +56,33 @@
 }
 
 :root {
-    --white: #F9F9F9;
+    --white: #FFFFFF;
+    --white-100: #F9F9F9;
     --white-200: #EAEAEA;
-    --gray: #2F2F2F;
 
+    --gray: #2F2F2F;
     --purple: #6610F2;
+}
+
+:root {
+    --gradient-blue: linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
+    --gradient-yellow: linear-gradient(270deg, #F2C94C 0%, rgba(242, 201, 76, 0) 100%);
+    --gradient-red: linear-gradient(136.92deg, #EF7C89 3.14%, rgba(239, 124, 137, 0) 100%);
+    --gradient-purple: linear-gradient(270deg, #7248EC 0%, rgba(114, 72, 236, 0) 100%);
+    --gradient-green: linear-gradient(180deg, #00E861 0%, rgba(0, 232, 97, 0) 100%);
 }
 
 header {
     width: 100vw;
     height: 14.30%;
-
-    background: yellow;
 }
 
 main {
     width: 100vw;
     height: 67.55%;
-
-    background: green;
-}
-
-main .main-upper {
-    height: 55.49%;
-
-    background: gray;
-}
-
-main .main-bottom {
-    height: 44.51%;
-    background: orange;
 }
 
 footer {
     width: 100vw;
     height: 18.15%;
-
-    background: blue;
 }

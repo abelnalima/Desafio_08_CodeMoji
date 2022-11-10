@@ -1,0 +1,139 @@
+.main-upper {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 55.49%;
+}
+
+.codemoji-3 {
+    width: 12.5rem;
+    height: 12.5rem;
+
+    margin-top: 2.625rem;
+    margin-left: 17.0833%;
+    transform: rotate(45deg);
+
+    background: var(--gradient-blue);
+}
+
+.memmoji-3 img {
+    width: 9.375rem;
+    height: 9.375rem;
+
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+
+    transform: rotate(-45deg);
+}
+
+.main-infos {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 26.5625%;
+    max-width: 46.875%;
+}
+
+.title-1 {
+    margin-top: 3.75rem;
+}
+
+.title-1 p {
+    font-family: 'Inter-Medium';
+    font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+    line-height: clamp(1.313rem, 1.131rem + 0.91vw, 1.813rem);
+    text-transform: uppercase;
+    text-align: center;
+
+    color: var(--gray);
+}
+
+.title-2 {
+    margin-top: 2.1875rem;
+}
+
+.title-2 p {
+    font-family: 'Sen-Bold';
+    font-size: clamp(3.75rem, 3.659rem + 0.45vw, 4rem);
+    line-height: clamp(4.125rem, 4.034rem + 0.45vw, 4.375rem);
+    text-align: center;
+
+    color: var(--gray);
+}
+
+.main-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 3.25rem;
+    margin-top: 9.5rem;
+}
+
+.btn-criar button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 14.1875rem;
+    height: 3.375rem;
+
+    border: none;
+    border-radius: 10px;
+
+    background: var(--purple);
+}
+
+.btn-criar button p {
+    font-family: 'Inter-SemiBold', sans-serif;
+    font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
+    line-height: clamp(1.25rem, 1.159rem + 0.45vw, 1.5rem);
+    text-transform: uppercase;
+
+    color: var(--white-100);
+}
+
+.btn-bib button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 15.0625rem;
+    height: 3.375rem;
+
+    border: 2px solid var(--white-200);
+    border-radius: 10px;
+
+    background: var(--white);
+}
+
+.btn-bib button p {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
+    line-height: clamp(1.25rem, 1.159rem + 0.45vw, 1.5rem);
+    text-transform: uppercase;
+
+    color: var(--gray);
+}
+
+.codemoji-5 {
+    width: 12.5rem;
+    height: 12.5rem;
+
+    margin-top: 2.625rem;
+    margin-left: 42%;
+    border-radius: 50%;
+
+    background: var(--gradient-yellow);
+}
+
+.memmoji-5 img {
+    width: 9.375rem;
+    height: 9.375rem;
+
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+}
+

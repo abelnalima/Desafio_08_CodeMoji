@@ -108,3 +108,16 @@
 
     color: var(--gray);
 }
+
+@media screen and (max-width: 1440px) {
+    .wrapper-1 {
+        max-width: 35%;
+    
+        margin-left: 2rem;
+    }
+
+    .wrapper-2 {
+        max-width: 35%;
+        margin-left: 7rem;
+    }
+}

@@ -59,3 +59,13 @@
 
     color: var(--gray);
 }
+
+@media screen and (max-width: 1440px) {
+    .header-name {
+        margin-left: 15.3125%;
+    }
+
+    .icon-search {
+        margin-left: 45.29%;
+    }
+}

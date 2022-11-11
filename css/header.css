@@ -60,6 +60,10 @@
     color: var(--gray);
 }
 
+.btn-login p::before {
+    content: 'Fazer Login';
+}
+
 @media screen and (max-width: 1440px) {
     .header-name {
         margin-left: 15.3125%;
@@ -77,5 +81,46 @@
 
     .icon-search {
         margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-name {
+        margin-top: 2rem;
+        margin-left: 15%;
+    }
+    
+    .icon-search {
+        width: 2.5rem;
+        height: 2.5rem;
+    
+        margin-top: 1.625rem;
+        margin-left: 48%;
+    }
+
+    .icon-search svg {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    
+    .login {
+        margin-top: 1.625rem;
+        margin-left: 2.34375%;
+    }
+    
+    .btn-login {
+        width: 2.5rem;
+        height: 2.5rem;
+    
+        border-radius: 50%;
+    }
+
+    .btn-login p::before {
+        content: '';
+    }
+
+    .btn-icon svg {
+        width: 1.25rem;
+        height: 1.25rem;
     }
 }

@@ -161,3 +161,45 @@
         height: 8rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .codemoji-2 {
+        position: absolute;
+        left: -500px;
+    }
+    
+    .codemoji-1 {
+        width: 6.25rem;
+        height: 6.25rem;
+
+        margin-top: 10rem;
+        margin-left: 20%;
+    }
+
+    .memmoji-1 {
+        margin-top: 1rem;
+    }
+
+    .memmoji-1 img {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .codemoji-4 {
+        position: absolute;
+        top: 35rem;
+        left: 78%;
+    
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    
+    .memmoji-4 img {
+        position: absolute;
+        top: 36rem;
+        left: 79.2%;
+    
+        width: 5rem;
+        height: 5rem;
+    }
+}

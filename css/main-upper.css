@@ -276,3 +276,92 @@
         height: 2.1875rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .codemoji-3 {
+        position: absolute;
+        top: 103px;
+        left: 66.5px;
+
+        width: 5.5rem;
+        height: 5.5rem;
+    
+        margin: 0;
+        border-radius: 8px;
+    }
+    
+    .memmoji-3 img {
+        width: 4.125rem;
+        height: 4.125rem;
+    }
+
+    .codemoji-5 {
+        top: 70px;
+        left: 253px;
+
+        width: 6.25rem;
+        height: 6.25rem;
+    
+        margin: 0;
+    }
+    
+    .memmoji-5 img {
+        width: 4.625rem;
+        height: 4.625rem;
+    }
+    
+    .main-infos {
+        top: 190px;
+        left: 20px;
+
+        max-width: 90%;
+    }
+    
+    .title-1 p {
+        font-size: 1.33rem;
+        line-height: 0.9375rem;
+    }
+    
+    .title-2 p {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+    
+    .btn-criar button {
+        width: 9rem;
+        height: 2.1875rem;
+    }
+    
+    .btn-bib button {
+        width: 9rem;
+        height: 2.1875rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .codemoji-3 {
+        left: 3.125rem;
+    }
+
+    .codemoji-5 {
+        left: 12.5rem;
+    }
+
+    .title-1 p {
+        font-size: 1rem;
+    }
+
+    .main-btn {
+        gap: 2rem;
+    }
+
+    .btn-criar button {
+        width: 7rem;
+        height: 2.5rem;
+    }
+    
+    .btn-bib button {
+        width: 7rem;
+        height: 2.5rem;
+    }
+}

@@ -64,6 +64,11 @@
     content: 'Fazer Login';
 }
 
+.btn-icon svg {
+    position: absolute;
+    left: -500px;
+}
+
 @media screen and (max-width: 1440px) {
     .header-name {
         margin-left: 15.3125%;
@@ -81,6 +86,10 @@
 
     .icon-search {
         margin-left: 40%;
+    }
+
+    .btn-icon svg {
+        left: -500px;
     }
 }
 
@@ -122,5 +131,54 @@
     .btn-icon svg {
         width: 1.25rem;
         height: 1.25rem;
+
+        position: relative;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header-name {
+        margin-top: 1.625rem;
+        margin: 1.5rem;
+    }
+    
+    .icon-search {
+        width: 1.875rem;
+        height: 1.875rem;
+    
+        margin-top: 1.5rem;
+    }
+
+    .icon-search svg {
+        width: 0.9375rem;
+        height: 0.9375rem;
+    }
+    
+    .login {
+        margin-top: 1.5rem;
+    }
+    
+    .btn-login {
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+
+    .btn-icon svg {
+        width: 0.9375rem;
+        height: 0.9375rem;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .icon-search {
+        margin-left: 42%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .icon-search {
+        margin-left: 35%;
     }
 }

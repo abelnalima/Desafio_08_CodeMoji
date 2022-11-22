@@ -23,7 +23,10 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
+              and (max-width: 425px)
+              and (max-width: 375px)
+              and (max-width: 320px) {
     body {
         width: 100vw;
         height: 60.6875rem;

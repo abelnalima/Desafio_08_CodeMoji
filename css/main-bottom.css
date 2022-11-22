@@ -203,3 +203,60 @@
         height: 5rem;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .codemoji-1 {
+        width: 5.75rem;
+        height: 5.75rem;
+
+        margin-top: 8rem;
+        margin-left: 3rem;
+    }
+
+    .memmoji-1 {
+        margin-top: 1rem;
+    }
+
+    .memmoji-1 img {
+        width: 4.375rem;
+        height: 4.375rem;
+    }
+    
+    .codemoji-4 {
+        position: absolute;
+        top: 35rem;
+        left: 18rem;
+    
+        width: 6.875rem;
+        height: 6.875rem;
+    }
+    
+    .memmoji-4 img {
+        position: absolute;
+        top: 36rem;
+        left: 19rem;
+    
+        width: 5.125rem;
+        height: 5.125rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .codemoji-4 {
+        left: 15rem;
+    }
+    
+    .memmoji-4 img {
+        left: 16rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .codemoji-4 {
+        left: 12rem;
+    }
+    
+    .memmoji-4 img {
+        left: 13rem;
+    }
+}
